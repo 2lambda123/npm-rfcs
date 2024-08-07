@@ -37,15 +37,15 @@ compared to cold, hard cash.
 
 In short, the concrete goals of this process are:
 
-* Get the community to have more ownership over a project that affects so many of them. Give them the ability to propose and make meaningful changes to the project and feel genuinely empowered to do so.
-* Lighten the load on the core CLI team so they can increase their focus on features, fixes, and products that benefit the most from their domain expertise.
-* Keep npm development nimble: allow efficient decision-making and find ways to prevent the long, exhausting stalemates that tend to lock down consensus-based systems.
-* Preserve npm, Inc's ability to build its products for the good of the community and allow it to continue guiding its development, while empowering the community to have their own meaningful say in how that works or conflicts with their own needs and goals.
-* Integrate other stakeholders more actively in our development process (such as Node Core)
-* Increase the overall quality of the project by increased participation "given enough eyeballs, all bugs are shallow".
-* Uplift community members that have contributed to this shared project, raising their status in the open source community.
-* Encourage sustainable corporate investment into open source and the people that work on it.
-* Create a positive, creative, educational, and fun environment for the npm developer community to connect and network with each other while doing cool stuff together!
+- Get the community to have more ownership over a project that affects so many of them. Give them the ability to propose and make meaningful changes to the project and feel genuinely empowered to do so.
+- Lighten the load on the core CLI team so they can increase their focus on features, fixes, and products that benefit the most from their domain expertise.
+- Keep npm development nimble: allow efficient decision-making and find ways to prevent the long, exhausting stalemates that tend to lock down consensus-based systems.
+- Preserve npm, Inc's ability to build its products for the good of the community and allow it to continue guiding its development, while empowering the community to have their own meaningful say in how that works or conflicts with their own needs and goals.
+- Integrate other stakeholders more actively in our development process (such as Node Core)
+- Increase the overall quality of the project by increased participation "given enough eyeballs, all bugs are shallow".
+- Uplift community members that have contributed to this shared project, raising their status in the open source community.
+- Encourage sustainable corporate investment into open source and the people that work on it.
+- Create a positive, creative, educational, and fun environment for the npm developer community to connect and network with each other while doing cool stuff together!
 
 ## Detailed Explanation
 
@@ -142,21 +142,21 @@ the Team who they allow into the Team, or whether to remove someone. For this
 process, they should work with their Group's Role coordinator both to document
 it and ensure that everything goes smoothly.
 
-
 ### Proposed Groups and Teams
 
 #### Role: Project Coordination
 
-* Purpose: Define and enable overall project direction
+- Purpose: Define and enable overall project direction
 
-* Responsibilities:
-  * Draft quarterly Roadmap Proposals based on RFCs and input from Groups/Roles.
-  * Track and document Roadmap progress and check in with Groups/Roles.
-  * Facilitate Roadmap Proposal discussions/meetings to reach a final decision on each Roadmap, making sure all Roles with something to say get heard.
-  * Work with the rest of the project to draft or modify general project bylaws, with the exception of those overlapping with Community Health and Facilitation, which is responsible for conduct-related bylaws.
-  * Hear petitions for cross-project decision requests and organize the events accordingly.
+- Responsibilities:
 
-* Note: This Role is **not** a decision-making role. It is a facilitation role that acts as glue between the different groups and their roles. Ultimately, project decisions come directly from those Roles, except which group decision-making system is used for Roadmap Proposals.
+  - Draft quarterly Roadmap Proposals based on RFCs and input from Groups/Roles.
+  - Track and document Roadmap progress and check in with Groups/Roles.
+  - Facilitate Roadmap Proposal discussions/meetings to reach a final decision on each Roadmap, making sure all Roles with something to say get heard.
+  - Work with the rest of the project to draft or modify general project bylaws, with the exception of those overlapping with Community Health and Facilitation, which is responsible for conduct-related bylaws.
+  - Hear petitions for cross-project decision requests and organize the events accordingly.
+
+- Note: This Role is **not** a decision-making role. It is a facilitation role that acts as glue between the different groups and their roles. Ultimately, project decisions come directly from those Roles, except which group decision-making system is used for Roadmap Proposals.
 
 #### Liaisons Group
 
@@ -185,33 +185,33 @@ non-liaison roles, according to those Roles' requirements.
 
 ##### Role: Liaison Coordination
 
-* Purpose: Manage Liaison Role memberships and Liaison Roles themselves.
+- Purpose: Manage Liaison Role memberships and Liaison Roles themselves.
 
-* Responsibilities
-  * Document and track existing Liaison Roles and collaborators that belong to each one.
-  * Facilitate conversations between the npm open-source project and external organizations in order to create/change/remove Liaison Roles.
-  * Help individual Liaison Roles find the right people to assign as collaborators.
+- Responsibilities
+  - Document and track existing Liaison Roles and collaborators that belong to each one.
+  - Facilitate conversations between the npm open-source project and external organizations in order to create/change/remove Liaison Roles.
+  - Help individual Liaison Roles find the right people to assign as collaborators.
 
 ##### Role: npm Liaison
 
-* Purpose: Represent the overall interests of npm, Inc, in npm core.
+- Purpose: Represent the overall interests of npm, Inc, in npm core.
 
-* Responsibilities:
-  * Participate in Roadmap decision-making.
-  * Act as an open bidirectional communication channel between npm Core and various internal teams at npm, Inc.
-  * Work with npm Product managers and npm Core developers to coordinate product releases that require work on both ends.
-  * Generally represent the interests of npm, Inc, as needed.
+- Responsibilities:
+  - Participate in Roadmap decision-making.
+  - Act as an open bidirectional communication channel between npm Core and various internal teams at npm, Inc.
+  - Work with npm Product managers and npm Core developers to coordinate product releases that require work on both ends.
+  - Generally represent the interests of npm, Inc, as needed.
 
 ##### Role: Node Liaison
 
-* Purpose: Represent the overall interests of both Node Core and the Node Foundation, in npm Core
+- Purpose: Represent the overall interests of both Node Core and the Node Foundation, in npm Core
 
-* Responsibilities:
-  * Participate in Roadmap decision-making.
-  * Act as an open bidirectional communication channel between various Node project segments and npm Core.
-  * Make sure new npm releases are downstreamed to nodejs/node in accordance with both teams' downstreaming practices.
-  * Work with Node Core to coordinate technical details of upcoming releases and any mutual changes that must be done together.
-  * Keep an eye on overall health of the npm CLI in Node.
+- Responsibilities:
+  - Participate in Roadmap decision-making.
+  - Act as an open bidirectional communication channel between various Node project segments and npm Core.
+  - Make sure new npm releases are downstreamed to nodejs/node in accordance with both teams' downstreaming practices.
+  - Work with Node Core to coordinate technical details of upcoming releases and any mutual changes that must be done together.
+  - Keep an eye on overall health of the npm CLI in Node.
 
 #### Community Group
 
@@ -221,60 +221,60 @@ its associated spaces.
 
 ##### Role: Community Coordination
 
-* Purpose: Manage and coordinate cross-Role requirements between the various Community Roles and make sure the interests of the wider npm community are represented in npm Core.
+- Purpose: Manage and coordinate cross-Role requirements between the various Community Roles and make sure the interests of the wider npm community are represented in npm Core.
 
-* Responsibilities:
-  * Document and track existing Community Roles and the collaborators belonging to each one.
-  * Facilitate changes related to Role structure, their membership, and their responsibility.
-  * Pay attention to the overall health and comfort of the npm userbase and spot patterns or concerns that need to be represented to other parts of the project.
-  * Help clarify individual responsibilities within Community Roles.
+- Responsibilities:
+  - Document and track existing Community Roles and the collaborators belonging to each one.
+  - Facilitate changes related to Role structure, their membership, and their responsibility.
+  - Pay attention to the overall health and comfort of the npm userbase and spot patterns or concerns that need to be represented to other parts of the project.
+  - Help clarify individual responsibilities within Community Roles.
 
 ##### Role: Support Champion
 
-* Purpose: Help the community find answers to issues preventing them from successfully using npm Core tools.
+- Purpose: Help the community find answers to issues preventing them from successfully using npm Core tools.
 
-* Responsibilities:
-  * Go through [#support](https://npm.community/c/support) and triage them by tagging them and looking for duplicates.
-  * Answer questions if the answer is known or exists elsewhere.
-  * Reach out to relevant npm Core members for answers or making them aware of issues that might be of note.
-  * Keep track of support issue patterns and work with the Documentation  and Developer Role(s) to find better ways to document and address common misunderstandings.
-  * Maintain [#how-do-i](https://npm.community/c/support/how-do-i) and [#troubleshooting](https://npm.community/c/support/troubleshooting).
-  * Encourage folks to file full, well-formed bug reports for things that might be bugs instead of usage questions, and [#ideas](https://npm.community/c/ideas) and RFCs for things that should be new features.
+- Responsibilities:
+  - Go through [#support](https://npm.community/c/support) and triage them by tagging them and looking for duplicates.
+  - Answer questions if the answer is known or exists elsewhere.
+  - Reach out to relevant npm Core members for answers or making them aware of issues that might be of note.
+  - Keep track of support issue patterns and work with the Documentation and Developer Role(s) to find better ways to document and address common misunderstandings.
+  - Maintain [#how-do-i](https://npm.community/c/support/how-do-i) and [#troubleshooting](https://npm.community/c/support/troubleshooting).
+  - Encourage folks to file full, well-formed bug reports for things that might be bugs instead of usage questions, and [#ideas](https://npm.community/c/ideas) and RFCs for things that should be new features.
 
 ##### Role: Bug Champion
 
-* Purpose: Ensure the overall quality of npm Core tools, particularly as it affects the wider community.
+- Purpose: Ensure the overall quality of npm Core tools, particularly as it affects the wider community.
 
-* Responsibilities:
-  * Go through [#bugs](https://npm.community/c/bugs) and triage them by tagging them and looking for duplicates.
-  * Keep an eye on bugs as they evolve and notify developers as needed of any important news on them.
-  * Make bugs more visible to community collaborators and seek out bugfix contributions.
-  * Look for overall bug patterns, areas of concern, or potential risks and communicate those with the Core Developer team and community.
-  * Look for and communicate any blockers that might prevent `next` from becoming `latest`.
-  * Block releases from going out if they're not up to quality standards.
+- Responsibilities:
+  - Go through [#bugs](https://npm.community/c/bugs) and triage them by tagging them and looking for duplicates.
+  - Keep an eye on bugs as they evolve and notify developers as needed of any important news on them.
+  - Make bugs more visible to community collaborators and seek out bugfix contributions.
+  - Look for overall bug patterns, areas of concern, or potential risks and communicate those with the Core Developer team and community.
+  - Look for and communicate any blockers that might prevent `next` from becoming `latest`.
+  - Block releases from going out if they're not up to quality standards.
 
 ##### Role: Outreach and Marketing
 
-* Purpose: Reach out to the wider npm community and manage communications.
+- Purpose: Reach out to the wider npm community and manage communications.
 
-* Responsibilities:
-  * Manage overall official comms for the project.
-  * Work with Liaisons and get in touch with Marketing stakeholders to coordinate cross-project marketing comms.
-  * Make the wider community aware of the project's work.
-  * Help reach out to new collaborators and generate interest in contribution.
-  * Give talks and presentations about the project, the roadmap, and other stuff
+- Responsibilities:
+  - Manage overall official comms for the project.
+  - Work with Liaisons and get in touch with Marketing stakeholders to coordinate cross-project marketing comms.
+  - Make the wider community aware of the project's work.
+  - Help reach out to new collaborators and generate interest in contribution.
+  - Give talks and presentations about the project, the roadmap, and other stuff
 
 ##### Role: Community Health and Facilitation
 
-* Purpose: Preserve the overall health and well-being of the people in the community and help all collaborators focus on their contributions.
+- Purpose: Preserve the overall health and well-being of the people in the community and help all collaborators focus on their contributions.
 
-* Responsibilities:
-  * Help create a harassment-free experience for everyone.
-  * Facilitate difficult technical conversations for the rest of the project on request.
-  * Provide a facilitator for cross-project votes and work with Project Coordination to smooth out the process.
-  * Follow the guidelines in the Code of Conduct for addressing interpersonal conflict within the project.
-  * Follow the guidelines in the CoC for enforcement actions against members, including temporary and full removals from the project, exclusion from certain Roles, etc, so long as these decisions follow processes outlined in the CoC.
-  * Lead discussions with the rest of the community to define/maintain the Code of Conduct and related community health guidelines. No one with a guest or full membership in the Health and Facilitation committee is able to vote on CoC changes, but they may be heard, and they may propose changes.
+- Responsibilities:
+  - Help create a harassment-free experience for everyone.
+  - Facilitate difficult technical conversations for the rest of the project on request.
+  - Provide a facilitator for cross-project votes and work with Project Coordination to smooth out the process.
+  - Follow the guidelines in the Code of Conduct for addressing interpersonal conflict within the project.
+  - Follow the guidelines in the CoC for enforcement actions against members, including temporary and full removals from the project, exclusion from certain Roles, etc, so long as these decisions follow processes outlined in the CoC.
+  - Lead discussions with the rest of the community to define/maintain the Code of Conduct and related community health guidelines. No one with a guest or full membership in the Health and Facilitation committee is able to vote on CoC changes, but they may be heard, and they may propose changes.
 
 #### Development Group
 
@@ -283,48 +283,49 @@ the actual tools that the project produces.
 
 ##### Role: Documentation
 
-* Purpose: Ensure the project has high-quality, accessible, useful documentation for its functions and various usecases, both at the user and the developer levels.
+- Purpose: Ensure the project has high-quality, accessible, useful documentation for its functions and various usecases, both at the user and the developer levels.
 
-* Responsibilities:
-  * Fix issues in existing documentation.
-  * Make sure undocumented things get documented.
-  * Maintain [#docs-needed](https://npm.community/c/docs-needed)
-  * Plan out documentation reorgs.
-  * Work with the npm Liaison to work with its own documentation team to keep website docs up to date and working good.
+- Responsibilities:
+  - Fix issues in existing documentation.
+  - Make sure undocumented things get documented.
+  - Maintain [#docs-needed](https://npm.community/c/docs-needed)
+  - Plan out documentation reorgs.
+  - Work with the npm Liaison to work with its own documentation team to keep website docs up to date and working good.
 
 ##### Role: Core Development
 
-* Purpose: Maintain and develop the code for npm Core's collection of tools and projects.
+- Purpose: Maintain and develop the code for npm Core's collection of tools and projects.
 
-* Responsibilities:
-  * Maintain codebases.
-  * Fix bugs and write tests.
-  * Work with the Documentation Team to document new and existing features.
-  * Implement new features in concordance with the Roadmap and other RFCs.
-  * Recategorize triaged bugs and talk with community members about them.
-  * Be available for the Support Team to answer questions about support issues.
-  * Review pull requests and help contributors as needed until they get accepted
+- Responsibilities:
 
-* Note: As with all other Roles, Core Development can spin off new Roles that it will defer some responsibilities to. It can no longer lay claim to those responsibilities once they've been handed to the other Role.
+  - Maintain codebases.
+  - Fix bugs and write tests.
+  - Work with the Documentation Team to document new and existing features.
+  - Implement new features in concordance with the Roadmap and other RFCs.
+  - Recategorize triaged bugs and talk with community members about them.
+  - Be available for the Support Team to answer questions about support issues.
+  - Review pull requests and help contributors as needed until they get accepted
+
+- Note: As with all other Roles, Core Development can spin off new Roles that it will defer some responsibilities to. It can no longer lay claim to those responsibilities once they've been handed to the other Role.
 
 ##### Role: Release Coordination
 
-* Purpose: Manage releases of project products.
+- Purpose: Manage releases of project products.
 
-* Responsibilities:
-  * Decide which Developer-accepted pull requests will go into the next release, in accordance with the roadmap, and merge them into integration branches as needed.
-  * Manage release cadence.
-  * Move `next` releases into `latest` based on input from Bug Champions.
-  * Develop and maintain release-related ancillary systems for the project, such as CI, build processes, and release automation for the project.
+- Responsibilities:
+  - Decide which Developer-accepted pull requests will go into the next release, in accordance with the roadmap, and merge them into integration branches as needed.
+  - Manage release cadence.
+  - Move `next` releases into `latest` based on input from Bug Champions.
+  - Develop and maintain release-related ancillary systems for the project, such as CI, build processes, and release automation for the project.
 
 ### Checks and Balances
 
-* Cap of 4 roles as "Full Member" -- no limit on guest memberships
-* 4hr minimum for "Full Member" status puts a limit on overall influence
-* Organization-wide decisions, such as votes, made for important situations are handled at the member level, not the role level, and always facilitated.
-* Picking decision systems on a per-Role basis prevent a single governance model from preventing other Roles from having a system that works better for them, and improves the general feeling of federation/sindicalism.
-* Any Full Member can petition the Project Organizers to call for a project decision. Project Organizers are responsible for choosing the format/system used for that decision (but this can be overridden by full consensus of non-Project Organizer members).
-* Ultimately, the userbase organizing and forking acts as a passive check against project decisions.
+- Cap of 4 roles as "Full Member" -- no limit on guest memberships
+- 4hr minimum for "Full Member" status puts a limit on overall influence
+- Organization-wide decisions, such as votes, made for important situations are handled at the member level, not the role level, and always facilitated.
+- Picking decision systems on a per-Role basis prevent a single governance model from preventing other Roles from having a system that works better for them, and improves the general feeling of federation/sindicalism.
+- Any Full Member can petition the Project Organizers to call for a project decision. Project Organizers are responsible for choosing the format/system used for that decision (but this can be overridden by full consensus of non-Project Organizer members).
+- Ultimately, the userbase organizing and forking acts as a passive check against project decisions.
 
 ## Rationale and Alternatives
 
@@ -374,21 +375,21 @@ responsibilities, until the Role can find a new Full Member.
 
 ## NEXT STEPS (post-meeting)
 
-* Extract the multiple job descriptions the CLI itself is already doing (for framing as a team within npm)
-* Work on goals from the perspective of npm itself too
-* Write down what this structure looks like day 0, 3mo in, 1yr in, etc
-* Make a new private repo that splits into multiple documents
-* Sit down and write down scenarios of what this looks like with different types of disruptive participants.
-* Write a "short" spec version of this. (presumably what day 0 would look like)
+- Extract the multiple job descriptions the CLI itself is already doing (for framing as a team within npm)
+- Work on goals from the perspective of npm itself too
+- Write down what this structure looks like day 0, 3mo in, 1yr in, etc
+- Make a new private repo that splits into multiple documents
+- Sit down and write down scenarios of what this looks like with different types of disruptive participants.
+- Write a "short" spec version of this. (presumably what day 0 would look like)
 
 ## Prior Art
 
 <!-- TODO: plenty of FOSS out there. It's worth studying how some of them are structured -->
 
-* Node Core
-* OpenStack
-* Webpack
-* Babel
+- Node Core
+- OpenStack
+- Webpack
+- Babel
 
 {{Discuss existing examples of this change in other tools, and how they've addressed various concerns discussed above, and what the effect of those decisions has been}}
 
