@@ -6,7 +6,7 @@ Implement a mechanism to scope configuration to commands explicitely.
 
 ## Motivation
 
-This change will help resolve many issues user's face when configuring `npm` as the current strategy is to have a single set of global options available to **all** commands. 
+This change will help resolve many issues user's face when configuring `npm` as the current strategy is to have a single set of global options available to **all** commands.
 
 ## Detailed Explanation
 
