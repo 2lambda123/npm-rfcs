@@ -17,11 +17,11 @@ We frequently get requests from users to add this behavior, but since it
 would be a sigificant departure from previous behavior of the CLI, it
 usually gets shut down.
 
-However, we _do_ have some default behavior in npm.  When the first
+However, we _do_ have some default behavior in npm. When the first
 positional argument doesn't match a known command (or an alias or unique
-abbrev expansion), then the CLI calls the `help` command.  If the term does
+abbrev expansion), then the CLI calls the `help` command. If the term does
 not match a known help topic, then `npm help` in turn calls `npm
-help-search`.  If that then finds a single matching help topic, it calls
+help-search`. If that then finds a single matching help topic, it calls
 `npm help` with that help topic.
 
 It's very helpful!
@@ -32,25 +32,25 @@ something else (usually `run-script`) be invoked instead?
 
 ## Detailed Explanation
 
-- Add a new config key, `default-command`.  This value must be a known npm
+- Add a new config key, `default-command`. This value must be a known npm
   command (no aliases or abbreviations), and will have the default value of
   `'help'`.
 - When the first positional argument does not match a known npm subcommand,
   it will invoke the `default-command` option with the remainder of the
   arguments.
 - When the first argument _does_ match a known npm subcommand, then the
-  `default-command` config value is not invoked.  (For example, `npm
-  --default-command=run-script install foo` will still install `foo` if
+  `default-command` config value is not invoked. (For example, `npm
+--default-command=run-script install foo` will still install `foo` if
   there is an `install` script in `package.json`.)
 - If a new command is added in the future, and this means that current
   users of `npm foo` being an alias for `npm run-script foo`, then that's
-  an acceptable disruption.  New commands are added very rarely, and only
-  after a careful evaluation of existing userland packages.  But, this is a
+  an acceptable disruption. New commands are added very rarely, and only
+  after a careful evaluation of existing userland packages. But, this is a
   power-user convenience feature, and we do not expect _many_ of our users
   will take advantage of it (though we expect those that use it will be
   happy to have it, and will understand the risks).
-- The `default-command` must only be a single command name.  It does not
-  support setting configurations or specifying additional arguments.  For
+- The `default-command` must only be a single command name. It does not
+  support setting configurations or specifying additional arguments. For
   example, `npm config set default-command 'install --global'` would not be
   allowed.
 
@@ -63,7 +63,7 @@ build scripts with `npm build` rather than `npm run build`.
 The rationale for being willing to clobber convenience use cases (eg,
 scripts named "install", etc.) when a new command is added is twofold.
 First, we are somewhat following in Yarn's footsteps, and Yarn only
-auto-runs scripts when the command is not known.  Second, we have to
+auto-runs scripts when the command is not known. Second, we have to
 reserve the right to continue to expand the functionality of the CLI, or
 else development of npm is unreasonably limited.
 
@@ -77,14 +77,14 @@ One alternative would be to search for a match among known npm subcommands,
 then `run-script` options, and only _then_ fall back to searching help.
 
 This would be least surprising to current Yarn users, still pretty helpful,
-and not require any opt-in.  However, it is not extensible to other command
+and not require any opt-in. However, it is not extensible to other command
 use cases, and still imposes the cost of adding new commands.
 
 ### Alternative 2 - just make `help` know about scripts
 
 Another alternative would be to make the current default `help-search`
 behavior look at the `"scripts"` field in the current project's
-`package.json` file.  If the term matches there, it could suggest that the
+`package.json` file. If the term matches there, it could suggest that the
 user might be thinking of the `run-script` command.
 
 ```
@@ -118,11 +118,11 @@ Making the `default-command` configurable also enables a few other
 interesting use cases:
 
 - `npm config set default-command exec` This turns npm into something like
-  a more powerful `npx`.  You can do `npm install` to install your
+  a more powerful `npx`. You can do `npm install` to install your
   dependencies, `npm create-react-app` to init a new react app, or `npm
-  rimraf folder` to remove a folder recursively.
+rimraf folder` to remove a folder recursively.
 - `npm config set default-command install` Since `npm install` is the most
-  common use case for npm, why not just drop the `install`?  Run `npm` with
+  common use case for npm, why not just drop the `install`? Run `npm` with
   no args to install all your dependencies, or `npm react --save-peer` to
   install react and save as a peer dependency.
 
@@ -134,35 +134,33 @@ command name.
 `lib/cli.js` contains this bit of code:
 
 ```js
-const cmd = npm.argv.shift()
-const impl = npm.commands[cmd]
-if (impl)
-  impl(npm.argv, errorHandler)
+const cmd = npm.argv.shift();
+const impl = npm.commands[cmd];
+if (impl) impl(npm.argv, errorHandler);
 else {
-  npm.config.set('usage', false)
-  npm.argv.unshift(cmd)
-  npm.commands.help(npm.argv, errorHandler)
+  npm.config.set("usage", false);
+  npm.argv.unshift(cmd);
+  npm.commands.help(npm.argv, errorHandler);
 }
 ```
 
 Change it to this:
 
 ```js
-const cmd = npm.argv.shift()
-const impl = npm.commands[cmd]
-if (impl)
-  impl(npm.argv, errorHandler)
+const cmd = npm.argv.shift();
+const impl = npm.commands[cmd];
+if (impl) impl(npm.argv, errorHandler);
 else {
-  npm.config.set('usage', false)
-  npm.argv.unshift(cmd)
-  npm.commands[npm.config.get('default-command')](npm.argv, errorHandler)
+  npm.config.set("usage", false);
+  npm.argv.unshift(cmd);
+  npm.commands[npm.config.get("default-command")](npm.argv, errorHandler);
 }
 ```
 
 ## Prior Art
 
 Yarn runs a script by the name specified in `package.json` if the command
-is not known.  It's a pretty popular behavior among users.
+is not known. It's a pretty popular behavior among users.
 
 ## Unresolved Questions and Bikeshedding
 
