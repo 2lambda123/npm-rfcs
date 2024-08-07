@@ -13,7 +13,7 @@ package is a meta-dependency in the overlap of the `dev` and `optional`
 subtrees.
 
 The `dev` flag indicates that the package is a child of the `dev` tree, and
-not required by any non-dev dependencies.  The `optional` flag indicates
+not required by any non-dev dependencies. The `optional` flag indicates
 that a package is a child of the `optional` tree, and not required by any
 non-optional dependencies.
 
@@ -39,13 +39,13 @@ root
 ```
 
 The root package has a dev dependency on `b`, and an optional dependency on
-`c`.  `b` and `c` both have a dependency on `d`, which is deduplicated.
+`c`. `b` and `c` both have a dependency on `d`, which is deduplicated.
 
 If we want to prune all dev and optional dependencies, then `d` should be
 pruned.
 
 However, because `d` is not "onlyDev", the `dev` flag is not set in the
-shrinkwrap.  And, because it is also not "onlyOptional", the `optional`
+shrinkwrap. And, because it is also not "onlyOptional", the `optional`
 flag is not set.
 
 In this case, a new flag, `devOptional` will be added.
@@ -61,9 +61,9 @@ having to re-walk the tree to find packages that are neither `onlyDev` nor
 
 ## Implementation
 
-Already implemented in `@npmcli/arborist`.  Will be included in npm v7.
+Already implemented in `@npmcli/arborist`. Will be included in npm v7.
 
 Internally, Arborist nodes have the `devOptional` flag if they are either
-dev _or_ optional (ie, it is the union of the two sets).  But,
+dev _or_ optional (ie, it is the union of the two sets). But,
 `devOptional` is only set in the shrinkwrap if they do not have `dev` or
 `optional` set as well.
